@@ -1,0 +1,108 @@
+﻿.cart-container {
+    background-color: #fff
+}
+
+.cart {
+    padding: 20px 0;
+    background-color: #fff
+}
+
+.cart__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.cart__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart__item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;  Вертикальное выравнивание 
+}
+
+.cart-item__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.cart-item__info {
+    flex-grow: 1;  Занимает оставшееся пространство 
+}
+
+.cart-item__title {
+    color: black;
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+}
+
+.cart-item__size,
+.cart-item__price {
+    color: black;
+    margin: 0 0 5px 0;
+}
+
+.cart-item__quantity {
+    margin-bottom: 10px;
+}
+
+.cart-item__quantity label {
+    color: black;
+}
+
+.cart-item__quantity input[type="number"] {
+    width: 50px;
+}
+
+
+.remove-from-cart {
+    background-color: #dc3545; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-from-cart:hover {
+    background-color: #c00;
+}
+
+
+.cart__total {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.cart__total p {
+    color: black;
+}
+
+#checkout-button {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

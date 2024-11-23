@@ -1,0 +1,122 @@
+﻿@model CardsModel
+
+<section class="goods">
+    <div class="container">
+        <h2 class="goods__title">Бабам</h2>
+        <ul class="goods__list" id="cardsContainer">
+            @foreach (var item in Model.Items)
+            {
+                <li class="goods__item">
+                    <article class="good">
+                        <a class="good__link-img" href="/Women/@item.Id">
+                            <img class="good__img" src="@item.Avatar">
+                        </a>
+                        <div class="good__description">
+                            <p class="good__price">$@item.Price</p>
+                            <h3 class="good__title">@item.Brand <span class="good__title__grey">/ @item.Model</span></h3>
+                            <p class="good__sizes">
+                                Размеры (RUS): <span class="good__sizes-list">@item.Size</span>
+                            </p>
+                            <a class="good__link" href="/Women/@item.Id">Подробнее</a>
+
+                            @if (Model.IsAdmin)
+                            {
+                                <button class="delete-item" data-id="@item.Id">Удалить @item.Id</button>
+                            }
+                        </div>
+                    </article>
+                </li>
+            }
+        </ul>
+
+    </div>
+</section>
+
+@if (Model.IsAdmin)
+{
+    <div class="admin-field">
+        <h3>Admin Panel</h3>
+
+        <form method="post" asp-controller="Women" asp-action="CreateItem" id="adminCreateForm">
+            <div class="mb-3">
+                <label asp-for="ItemToCreate.Brand" class="form-label">Brand</label>
+                <input asp-for="ItemToCreate.Brand" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="ItemToCreate.Model" class="form-label">Model</label>
+                <input asp-for="ItemToCreate.Model" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="ItemToCreate.Color" for="colorInput" class="form-label">Color</label>
+                <input asp-for="ItemToCreate.Color" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="ItemToCreate.Size" for="sizeInput" class="form-label">Size</label>
+                <input asp-for="ItemToCreate.Size" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="ItemToCreate.Price" class="form-label">Price</label>
+                <input asp-for="ItemToCreate.Price" type="number" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="ItemToCreate.Avatar" class="form-label">Avatar</label>
+                <input asp-for="ItemToCreate.Avatar" type="text" class="form-control" placeholder="URL">
+            </div>
+            <div class="mb-3">
+                <label asp-for="ItemToCreate.Description" class="form-label">Description</label>
+                <input asp-for="ItemToCreate.Description" type="text" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+}
+
+<script>
+    $(document).ready(function () {
+        $("#adminCreateForm").submit(function (event) {
+            event.preventDefault();
+
+            var form = $(this);
+            var url = form.attr('action');
+
+            $.ajax({
+                url: url,
+                type: 'POST',
+                data: form.serialize(),
+                success: function (response) {
+                    console.log("Товар успешно создан");
+                    form[0].reset();
+
+                    location.reload();
+                },
+                error: function (error) {
+                    console.error("Ошибка при создании товара:", error);
+                }
+            });
+        });
+    });
+
+    $("#cardsContainer").on("click", ".delete-item", function () {
+        var itemId = $(this).data("id");
+        var itemElement = $(this).closest(".goods__item");
+
+        if (confirm(`Вы уверены, что хотите удалить товар ${itemId}?`)) {
+            $.ajax({
+                url: '@Url.Action("DeleteOne", "Women")',
+                type: 'DELETE',
+                data: { id: itemId },
+                success: function (response) {
+                    itemElement.remove();
+                    alert("Товар успешно удален!");
+
+                    location.reload();
+                },
+                error: function (error) {
+                    console.error("Ошибка при удалении товара:", error);
+                    alert("Ошибка при удалении товара: " + error.responseText);
+                }
+            });
+        }
+    });
+</script>

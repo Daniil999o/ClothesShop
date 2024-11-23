@@ -1,0 +1,109 @@
+﻿@using ClothesShop.Models
+
+@model CartModel
+
+@{
+    float totalPrice = Model.CartItems.Sum(x => x.Product.Price * x.Quantity);
+}
+
+
+<link rel="stylesheet" href="~/styles/cart.css" />
+
+<section class="cart">
+    <div class="cart-container">
+
+        @if (Model.CartItems == null || Model.CartItems.Count == 0)
+        {
+            <h1 class="cart__title">Корзина пока пустая</h1>
+            <h3 class="cart__title">Посмотрите наши популярные <a asp-controller="Home" asp-action="Index">товары</a></h3>
+        }
+        else
+        {
+            <h3 class="cart__title">Корзина</h3>
+
+            <ul class="cart__list">
+                @foreach (var cartItem in Model.CartItems)
+                {
+                    <li class="cart__item">
+                        <article class="cart-item">
+                            <img class="cart-item__img" src="@cartItem.Product.Avatar" alt="@cartItem.Product.Brand @cartItem.Product.Model">
+                            <div class="cart-item__info">
+                                <h3 class="cart-item__title">@cartItem.Product.Brand @cartItem.Product.Model</h3>
+                                <p class="cart-item__size">Размер: @cartItem.Product.Size</p>
+                                <p class="cart-item__price">$@cartItem.Product.Price</p>
+                                <div class="cart-item__quantity">
+                                    <label for="quantity-@cartItem.Product.Id">Количество: @cartItem.Quantity</label>
+                                </div>
+
+                                <button class="remove-from-cart" data-product-id="@cartItem.Product.Id" data-product-gender="@cartItem.Gender">Удалить</button> @* Или другой gender*@
+
+
+                            </div>
+                        </article>
+                    </li>
+                }
+            </ul>
+            <div class="cart__total">
+                <p>Итого: <span id="cart-total">$@totalPrice</span></p> <button id="checkout-button">Оформить заказ</button>
+
+            </div>
+        }
+    </div>
+</section>
+
+<script>
+    $('.remove-from-cart').click(function () {
+        const productId = $(this).data('product-id');
+        const gender = $(this).data('product-gender');
+
+
+        $.ajax({
+            url: '/Cart/RemoveFromCart',
+            type: 'DELETE',
+            data: { productId: productId, gender: gender },
+            success: function (result) {
+                location.reload();
+            },
+            error: function (error) {
+                console.error("Ошибка при удалении из корзины:", error);
+                alert("Ошибка при удалении из корзины");
+            }
+        });
+    });
+
+    function getCartItems() {
+        $.ajax({
+            url: '/Cart/GetCartItems',
+            type: 'GET',
+            success: function (cart) {
+                updateCartUI(cart);
+            },
+            error: function (error) {
+            }
+        });
+    }
+
+    function updateCartUI(cart) {
+        const cartList = $('.cart__list');
+        cartList.empty();
+
+        cart.forEach(function (item) {
+
+        });
+
+        updateCartTotal(cart);
+    }
+
+    function updateCartTotal(cart) {
+        let totalPrice = 0;
+        cart.forEach(function (item) {
+            totalPrice += item.Product.Price * item.Quantity;
+        });
+
+        $('#cart-total').text('$' + totalPrice.toFixed(2));
+    }
+
+    $(document).ready(function () {
+        getCartItems();
+    });
+</script>

@@ -1,0 +1,797 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ClothesShop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ClothesShop.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\favicon\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\favicon\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\favicon\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\favicon\\browserconfig.xml"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favicon\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favicon\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\mstile-144x144.png",
+      "PackagePath": "staticwebassets\\favicon\\mstile-144x144.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\favicon\\mstile-150x150.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\mstile-310x150.png",
+      "PackagePath": "staticwebassets\\favicon\\mstile-310x150.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\mstile-310x310.png",
+      "PackagePath": "staticwebassets\\favicon\\mstile-310x310.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\mstile-70x70.png",
+      "PackagePath": "staticwebassets\\favicon\\mstile-70x70.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\safari-pinned-tab.svg",
+      "PackagePath": "staticwebassets\\favicon\\safari-pinned-tab.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\favicon\\site.webmanifest",
+      "PackagePath": "staticwebassets\\favicon\\site.webmanifest"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoRobert-RegularItalic.eot",
+      "PackagePath": "staticwebassets\\fonts\\CoFoRobert-RegularItalic.eot"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoRobert-RegularItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\CoFoRobert-RegularItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoRobert-RegularItalic.woff",
+      "PackagePath": "staticwebassets\\fonts\\CoFoRobert-RegularItalic.woff"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoRobert-RegularItalic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\CoFoRobert-RegularItalic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Black.eot",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Black.woff",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Black.woff2",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Bold.eot",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Bold.woff",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Medium.eot",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Medium.woff",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Medium.woff2",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\CoFoSans-Regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\CoFoSans-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\fonts\\stylesheet.css",
+      "PackagePath": "staticwebassets\\fonts\\stylesheet.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\AD002EMLUEA8_14164246_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\AD002EMLUEA8_14164246_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\AD002EMLUEA8_14164246_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\AD002EMLUEA8_14164246_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\AD002EWLUHE3_13165507_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\AD002EWLUHE3_13165507_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\AD002EWLUHE3_13165507_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\AD002EWLUHE3_13165507_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\AV012EMIMUG4_11404995_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\AV012EMIMUG4_11404995_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\AV012EMIMUG4_11404995_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\AV012EMIMUG4_11404995_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG0147V_11514976_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG0147V_11514976_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG0147V_11514976_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG0147V_11514976_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01K1E_13207928_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01K1E_13207928_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01K1E_13207928_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01K1E_13207928_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01LJ8_13412039_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01LJ8_13412039_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01LJ8_13412039_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01LJ8_13412039_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01M3E_13558114_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01M3E_13558114_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01M3E_13558114_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01M3E_13558114_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01NUC_13676491_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01NUC_13676491_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01NUC_13676491_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01NUC_13676491_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01QDG_14120487_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01QDG_14120487_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01QDG_14120487_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01QDG_14120487_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01REQ_14210247_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01REQ_14210247_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01REQ_14210247_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01REQ_14210247_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01S9U_14477450_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01S9U_14477450_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XG01S9U_14477450_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XG01S9U_14477450_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XM0MT2L_12444872_9_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XM0MT2L_12444872_9_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XM0MT2L_12444872_9_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XM0MT2L_12444872_9_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XM1HC3S_13703268_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XM1HC3S_13703268_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XM1HC3S_13703268_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XM1HC3S_13703268_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XM20MOI_10076303_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XM20MOI_10076303_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XM20MOI_10076303_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XM20MOI_10076303_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW060O4_13625731_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW060O4_13625731_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW060O4_13625731_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW060O4_13625731_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW06GQ5_13962734_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW06GQ5_13962734_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW06GQ5_13962734_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW06GQ5_13962734_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW06UN3_14130289_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW06UN3_14130289_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW06UN3_14130289_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW06UN3_14130289_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW06VXS_14089904_1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW06VXS_14089904_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW06VXS_14089904_2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW06VXS_14089904_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW075PI_14315542_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW075PI_14315542_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW075PI_14315542_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW075PI_14315542_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW0Q9SP_8840462_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW0Q9SP_8840462_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW0Q9SP_8840462_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW0Q9SP_8840462_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW14T1R_11615827_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW14T1R_11615827_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\MP002XW14T1R_11615827_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\MP002XW14T1R_11615827_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\NE007EWMSTP9_14530060_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\NE007EWMSTP9_14530060_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\NE007EWMSTP9_14530060_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\NE007EWMSTP9_14530060_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAC186501_13613543_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAC186501_13613543_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAC186501_13613543_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAC186501_13613543_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAE350201_13954485_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAE350201_13954485_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAE350201_13954485_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAE350201_13954485_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAE736501_14002734_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAE736501_14002734_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAE736501_14002734_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAE736501_14002734_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAG699301_14109017_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAG699301_14109017_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAG699301_14109017_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAG699301_14109017_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAH106801_14109125_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAH106801_14109125_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAH106801_14109125_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAH106801_14109125_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAH915201_14410997_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAH915201_14410997_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAH915201_14410997_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAH915201_14410997_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAJ897601_14395361_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAJ897601_14395361_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAJ897601_14395361_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAJ897601_14395361_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAK612301_14538241_1_v1.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAK612301_14538241_1_v1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\goods-image\\RTLAAK612301_14538241_1_v2.jpg",
+      "PackagePath": "staticwebassets\\goods-image\\RTLAAK612301_14538241_1_v2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\35.svg",
+      "PackagePath": "staticwebassets\\image\\35.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\beach.jpg",
+      "PackagePath": "staticwebassets\\image\\beach.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\cart.svg",
+      "PackagePath": "staticwebassets\\image\\cart.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\child.png",
+      "PackagePath": "staticwebassets\\image\\child.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\facebook.svg",
+      "PackagePath": "staticwebassets\\image\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\facebook_hover.svg",
+      "PackagePath": "staticwebassets\\image\\facebook_hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\footer__icon-appstore.svg",
+      "PackagePath": "staticwebassets\\image\\footer__icon-appstore.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\footer__icon-googleplay.svg",
+      "PackagePath": "staticwebassets\\image\\footer__icon-googleplay.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\footer__icon-huaweistore.svg",
+      "PackagePath": "staticwebassets\\image\\footer__icon-huaweistore.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\footer__icon-mastercard.svg",
+      "PackagePath": "staticwebassets\\image\\footer__icon-mastercard.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\footer__icon-mir.svg",
+      "PackagePath": "staticwebassets\\image\\footer__icon-mir.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\footer__icon-visa.svg",
+      "PackagePath": "staticwebassets\\image\\footer__icon-visa.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\instagram.svg",
+      "PackagePath": "staticwebassets\\image\\instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\instagram_hover.svg",
+      "PackagePath": "staticwebassets\\image\\instagram_hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\logo.png",
+      "PackagePath": "staticwebassets\\image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\logo.svg",
+      "PackagePath": "staticwebassets\\image\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\more.svg",
+      "PackagePath": "staticwebassets\\image\\more.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\premium.jpg",
+      "PackagePath": "staticwebassets\\image\\premium.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\sneakers.jpg",
+      "PackagePath": "staticwebassets\\image\\sneakers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\sport.jpg",
+      "PackagePath": "staticwebassets\\image\\sport.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\umbrella.jpg",
+      "PackagePath": "staticwebassets\\image\\umbrella.jpg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\vk.svg",
+      "PackagePath": "staticwebassets\\image\\vk.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\vk_hover.svg",
+      "PackagePath": "staticwebassets\\image\\vk_hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\youtube.svg",
+      "PackagePath": "staticwebassets\\image\\youtube.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\image\\youtube_hover.svg",
+      "PackagePath": "staticwebassets\\image\\youtube_hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\scss\\_card-good.scss",
+      "PackagePath": "staticwebassets\\scss\\_card-good.scss"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\scss\\_cart.scss",
+      "PackagePath": "staticwebassets\\scss\\_cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\scss\\_global.scss",
+      "PackagePath": "staticwebassets\\scss\\_global.scss"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\scss\\_goods.scss",
+      "PackagePath": "staticwebassets\\scss\\_goods.scss"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\scss\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\scss\\_promo.scss",
+      "PackagePath": "staticwebassets\\scss\\_promo.scss"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\scss\\_subheader.scss",
+      "PackagePath": "staticwebassets\\scss\\_subheader.scss"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\styles\\cart.css",
+      "PackagePath": "staticwebassets\\styles\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\styles\\style.css",
+      "PackagePath": "staticwebassets\\styles\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\wwwroot\\styles\\style.css.map",
+      "PackagePath": "staticwebassets\\styles\\style.css.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ClothesShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ClothesShop.props",
+      "PackagePath": "build\\ClothesShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ClothesShop.props",
+      "PackagePath": "buildMultiTargeting\\ClothesShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ClothesShop.props",
+      "PackagePath": "buildTransitive\\ClothesShop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
