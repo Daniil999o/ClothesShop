@@ -73,7 +73,8 @@ namespace ClothesShop.Controllers
                                 Size = reader.GetString(4),
                                 Price = (float)reader.GetDouble(5),
                                 Avatar = reader.GetString(6),
-                                Description = reader.GetString(7)
+                                Description = reader.GetString(7),
+                                ManufacturerId = reader.GetInt32(8)
                             };
                         }
 

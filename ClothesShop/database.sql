@@ -10,7 +10,8 @@ CREATE TABLE IF NOT EXISTS WomenItems (
   size VARCHAR(255),
   price FLOAT,
   avatar VARCHAR(255),
-  description TEXT
+  description TEXT,
+  manufacturerId INT
 );
 
 CREATE TABLE IF NOT EXISTS MenItems (
@@ -21,5 +22,13 @@ CREATE TABLE IF NOT EXISTS MenItems (
   size VARCHAR(255),
   price FLOAT,
   avatar VARCHAR(255),
-  description TEXT
+  description TEXT,
+  manufacturerId INT
+);
+
+CREATE TABLE IF NOT EXISTS Manufacturers (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(255),
+	country VARCHAR(255),
+	address TEXT
 );

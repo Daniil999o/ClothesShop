@@ -8,5 +8,9 @@
         public ProductItem ItemToCreate { get; set; }
 
         public string Gender { get; set; }
+
+        public List<Manufacturer> Manufacturers { get; set; }
+
+        public Manufacturer Manufacturer { get; set; }
     }
 }

@@ -1,4 +1,6 @@
-﻿<section class="promo">
+﻿@model ManufacturerModel
+
+<section class="promo">
     <div class="container">
         <ul class="promo__grid">
             <li class="promo__grid-item promo__grid-item__big">
@@ -23,3 +25,97 @@
         </ul>
     </div>
 </section>
+
+@if (Model.IsAdmin)
+{
+    <div class="admin-field">
+        <div class="container">
+            <h2 class="goods__title">Производители:</h2>
+            <ul class="goods__list" id="manufacturersContainer">
+                @foreach (var x in Model.Manufacturers)
+                {
+                    <li class="goods__item">
+                        <article class="good">
+                            <div class="good__description">
+                                <h3 class="good__title">@x.Name<span class="good__title__grey">/ @x.Country</span></h3>
+                                <p class="good__sizes">
+                                    Адрес: <span class="good__sizes-list">@x.Address</span>
+                                </p>
+
+                                <button class="delete-item" data-id="@x.Id">Удалить @x.Id</button>
+                            </div>
+                        </article>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <h3>Создать производителя</h3>
+
+        <form method="post" asp-controller="Home" asp-action="CreateManufacturer" id="adminCreateForm">
+            <div class="mb-3">
+                <label asp-for="Manufacturer.Name" class="form-label">Name</label>
+                <input asp-for="Manufacturer.Name" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Manufacturer.Country" class="form-label">Country</label>
+                <input asp-for="Manufacturer.Country" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Manufacturer.Address" class="form-label">Address</label>
+                <input asp-for="Manufacturer.Address" type="text" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+}
+
+
+<script>
+    $(document).ready(function () {
+        $("#adminCreateForm").submit(function (event) {
+            event.preventDefault();
+
+            var form = $(this);
+            var url = form.attr('action');
+
+            $.ajax({
+                url: url,
+                type: 'POST',
+                data: form.serialize(),
+                success: function (response) {
+                    form[0].reset();
+
+                    location.reload();
+                },
+                error: function (error) {
+                    alert("Ошибка при создании производителя:", error);
+                }
+            });
+        });
+    });
+
+    $("#manufacturersContainer").on("click", ".delete-item", function () {
+        var itemId = $(this).data("id");
+        var itemElement = $(this).closest(".goods__item");
+
+        if (confirm(`Вы уверены, что хотите удалить производителя ${itemId}?`)) {
+            $.ajax({
+                url: '@Url.Action("DeleteOneManufacturer", "Home")',
+                type: 'DELETE',
+                data: { id: itemId },
+                success: function (response) {
+                    itemElement.remove();
+                    alert("Производитель успешно удален!");
+
+                    location.reload();
+                },
+                error: function (error) {
+                    console.error("Ошибка при удалении производителя:", error);
+                    alert("Ошибка при удалении производителя: " + error.responseText);
+                }
+            });
+        }
+    });
+</script>

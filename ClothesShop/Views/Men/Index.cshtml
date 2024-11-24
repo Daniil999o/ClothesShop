@@ -66,6 +66,11 @@
                 <label asp-for="ItemToCreate.Description" class="form-label">Description</label>
                 <input asp-for="ItemToCreate.Description" type="text" class="form-control">
             </div>
+            <div class="mb-3">
+                <label asp-for="ItemToCreate.ManufacturerId" class="form-label">Manufacturer</label>
+                <select asp-for="ItemToCreate.ManufacturerId" class="form-control" asp-items="@(new SelectList(Model.Manufacturers, "Id", "Name"))">
+                </select>
+            </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

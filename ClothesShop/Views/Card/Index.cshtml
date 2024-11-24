@@ -3,6 +3,7 @@
 @model CardsModel
 @{
     ProductItem item = Model.ItemToCreate;
+    Manufacturer manufacturer = Model.Manufacturer;
 }
 
 <section class="card-good">
@@ -33,7 +34,12 @@
                 <button class="card-good__buy" data-bs-toggle="modal" data-bs-target="#exampleModal">Редактировать</button>
             }
 
-            <p class="card-good__brand">Description:</p>
+            <h3 class="good__title">@manufacturer.Name<span class="good__title__grey">/ @manufacturer.Country</span></h3>
+            <p class="card-good__title"><b>Адрес: </b>@manufacturer.Address</p>
+
+            <br />
+
+            <h4 class="card-good__brand">Описание:</h4>
             <p class="card-good__title">@item.Description</p>
         </div>
     </div>
@@ -78,7 +84,14 @@
                         <label asp-for="ItemToCreate.Description" class="form-label">Description</label>
                         <input asp-for="ItemToCreate.Description" type="text" class="form-control">
                     </div>
+                    <div class="mb-3">
+                        <label asp-for="ItemToCreate.ManufacturerId" class="form-label">Manufacturer</label>
+                        <select asp-for="ItemToCreate.ManufacturerId" class="form-control" asp-items="@(new SelectList(Model.Manufacturers, "Id", "Name"))">
+                        </select>
+                    </div>
+
                     <button type="submit" class="btn btn-primary">Submit</button>
+
                     <div hidden>
                         <label asp-for="Gender">Gender</label>
                         <input asp-for="Gender" type="text" class="form-control">

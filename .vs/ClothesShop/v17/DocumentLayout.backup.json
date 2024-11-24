@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\danii\\source\\repos\\ClothesShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C75D67B9-F6F8-4E5B-A9C7-FAE0E0FE182B}|ClothesShop\\ClothesShop.csproj|c:\\users\\danii\\source\\repos\\clothesshop\\clothesshop\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C75D67B9-F6F8-4E5B-A9C7-FAE0E0FE182B}|ClothesShop\\ClothesShop.csproj|solutionrelative:clothesshop\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C75D67B9-F6F8-4E5B-A9C7-FAE0E0FE182B}|ClothesShop\\ClothesShop.csproj|c:\\users\\danii\\source\\repos\\clothesshop\\clothesshop\\views\\men\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75D67B9-F6F8-4E5B-A9C7-FAE0E0FE182B}|ClothesShop\\ClothesShop.csproj|solutionrelative:clothesshop\\views\\men\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D67B9-F6F8-4E5B-A9C7-FAE0E0FE182B}|ClothesShop\\ClothesShop.csproj|c:\\users\\danii\\source\\repos\\clothesshop\\clothesshop\\views\\women\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75D67B9-F6F8-4E5B-A9C7-FAE0E0FE182B}|ClothesShop\\ClothesShop.csproj|solutionrelative:clothesshop\\views\\women\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,13 +32,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "ClothesShop\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "ClothesShop\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAABbAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\Views\\Men\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClothesShop\\Views\\Men\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\Views\\Men\\Index.cshtml",
+              "RelativeToolTip": "ClothesShop\\Views\\Men\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T17:08:48.834Z",
+              "WhenOpened": "2024-11-24T18:01:18.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\Views\\Women\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClothesShop\\Views\\Women\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danii\\source\\repos\\ClothesShop\\ClothesShop\\Views\\Women\\Index.cshtml",
+              "RelativeToolTip": "ClothesShop\\Views\\Women\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T18:01:09.387Z",
               "EditorCaption": ""
             }
           ]

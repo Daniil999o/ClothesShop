@@ -37,3 +37,4 @@ C:\Users\danii\source\repos\ClothesShop\ClothesShop\bin\Debug\net8.0\Npgsql.Enti
 C:\Users\danii\source\repos\ClothesShop\ClothesShop\obj\Debug\net8.0\ClothesShop.csproj.AssemblyReference.cache
 C:\Users\danii\source\repos\ClothesShop\ClothesShop\obj\Debug\net8.0\ClothesS.37CCDB7E.Up2Date
 C:\Users\danii\source\repos\ClothesShop\ClothesShop\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\danii\source\repos\ClothesShop\ClothesShop\obj\Debug\net8.0\ClothesShop.sourcelink.json

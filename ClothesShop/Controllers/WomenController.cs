@@ -36,7 +36,7 @@ namespace ClothesShop.Controllers
             {
                 await connection.OpenAsync();
 
-                using (var command = new NpgsqlCommand($"INSERT INTO {TABLE_NAME}Items(Brand, Model, Color, Size, Price, Avatar, Description) VALUES (@Brand, @Model, @Color, @Size, @Price, @Avatar, @Description) RETURNING Id", connection))
+                using (var command = new NpgsqlCommand($"INSERT INTO {TABLE_NAME}Items(Brand, Model, Color, Size, Price, Avatar, Description, ManufacturerId) VALUES (@Brand, @Model, @Color, @Size, @Price, @Avatar, @Description, @ManufacturerId) RETURNING Id", connection))
                 {
                     command.Parameters.AddWithValue("Brand", newWomanItem.Brand);
                     command.Parameters.AddWithValue("Model", newWomanItem.Model);
@@ -45,6 +45,7 @@ namespace ClothesShop.Controllers
                     command.Parameters.AddWithValue("Price", newWomanItem.Price);
                     command.Parameters.AddWithValue("Avatar", newWomanItem.Avatar);
                     command.Parameters.AddWithValue("Description", newWomanItem.Description);
+                    command.Parameters.AddWithValue("ManufacturerId", newWomanItem.ManufacturerId);
 
                     int newItemId = (int)await command.ExecuteScalarAsync();
 
@@ -79,7 +80,8 @@ namespace ClothesShop.Controllers
                                 Size = reader.GetString(4),
                                 Price = (float)reader.GetDouble(5),
                                 Avatar = reader.GetString(6),
-                                Description = reader.GetString(7)
+                                Description = reader.GetString(7),
+                                ManufacturerId = reader.GetInt32(8)
                             });
                         }
 
@@ -137,8 +139,41 @@ namespace ClothesShop.Controllers
             return View(new CardsModel
             {
                 IsAdmin = _isAdmin,
-                Items = items
+                Items = items,
+                Manufacturers = await GetAllManufacturers()
             });
+        }
+
+        [HttpGet()]
+        public async Task<List<Manufacturer>> GetAllManufacturers()
+        {
+            string connectionString = _configuration.GetConnectionString("PostgreSQLConnection");
+
+            using (var connection = new NpgsqlConnection(connectionString))
+            {
+                await connection.OpenAsync();
+
+                using (var command = new NpgsqlCommand($"SELECT * FROM Manufacturers", connection))
+                {
+                    using (var reader = await command.ExecuteReaderAsync())
+                    {
+                        List<Manufacturer> manufacturers = new List<Manufacturer>();
+
+                        while (await reader.ReadAsync())
+                        {
+                            manufacturers.Add(new Manufacturer
+                            {
+                                Id = reader.GetInt32(0),
+                                Name = reader.GetString(1),
+                                Country = reader.GetString(2),
+                                Address = reader.GetString(3)
+                            });
+                        }
+
+                        return manufacturers;
+                    }
+                }
+            }
         }
     }
 }
